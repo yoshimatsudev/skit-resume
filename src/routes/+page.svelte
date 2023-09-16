@@ -281,7 +281,7 @@
 					</article>
 				</div>
 			</main>
-			<div class="sticky bottom-0 md:static md:mt-8" style="">
+			<div class="bottom-0 md:static md:mt-8" style="">
 				<div class="divider mt-0 mb-8 hidden lg:flex" />
 				<footer
 					id="footer"
