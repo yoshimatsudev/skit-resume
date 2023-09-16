@@ -58,12 +58,12 @@
 			style=""
 		>
 			<div
-				class="flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8"
+				class="print:grid-cols-6 print:grid print:max-h-32 print:card flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8"
 			>
 				{#each myTechnologies as technology}
 					<button
 						id={technology}
-						class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 mt-4 mb-8 xl:m-0"
+						class="btn btn-sm btn-ghost normal-case border-dotted border-base-content/20 border-2 mt-4 mb-8 print:mb-0 print:mt-0 xl:m-0"
 						>{technology}</button
 					>
 				{/each}
@@ -239,7 +239,8 @@
 									backoffice web applications
 								</h2>
 								<h2 class="card-title">
-									<span class="radio" />Designed CI/CD solution along with Architects to replace old legacy solutions to our new cloud-based infra
+									<span class="radio" />Designed CI/CD solution along with Architects to replace old
+									legacy solutions to our new cloud-based infra
 								</h2>
 							</div>
 						</div>
@@ -268,13 +269,15 @@
 									</h2>
 								</div>
 								<h2 class="card-title">
-									<span class="radio" />Developed the MVP of a new mobile digital loan hybrid app with Vue and Apache Cordova
+									<span class="radio" />Developed the MVP of a new mobile digital loan hybrid app
+									with Vue and Apache Cordova
 								</h2>
 								<h2 class="card-title">
 									<span class="radio" />Migrated database and functions from OracleSQL to MySQL
 								</h2>
 								<h2 class="card-title">
-									<span class="radio" />Worked on adapting Santander banking microsservices to a new Cloud Infrastructure
+									<span class="radio" />Worked on adapting Santander banking microsservices to a new
+									Cloud Infrastructure
 								</h2>
 							</div>
 						</div>
