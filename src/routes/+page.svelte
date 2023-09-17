@@ -1,5 +1,12 @@
 <script lang="ts">
 	import '../app.css';
+	import spiderLogo from '$lib/images/spider.jpeg'
+	import accentureLogo from '$lib/images/accenturelogo.jpeg'
+	import beesLogo from '$lib/images/beeslogo.jpeg'
+	import brqLogo from '$lib/images/brqlogo.jpeg'
+	import tribancoLogo from '$lib/images/tribancologo.jpeg'
+	import itiLogo from '$lib/images/itiitaulogo.jpeg'
+
 	const myTechnologies = [
 		'Javascript',
 		'Typescript',
@@ -38,7 +45,7 @@
 				<figure class="relative mx-auto group">
 					<img
 						class="u-photo rounded-full shadow-xl hover:shadow-2xl transition-shadow z-10 w-24 h-24 md:w-32 md:h-32"
-						src="/spider.jpeg"
+						src={spiderLogo}
 						alt="Daniel Yoshimatsu"
 					/>
 					<div
@@ -115,7 +122,7 @@
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="BEES"
-										src="/beeslogo.jpeg"
+										src={beesLogo}
 									/>
 									<h2 class="card-title text-2xl">
 										From: Aug, 2022<span class="mr-1">·</span>Up to today
@@ -157,7 +164,7 @@
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="BRQ"
-										src="/brqlogo.jpeg"
+										src={brqLogo}
 									/>
 									<h2 class="card-title text-2xl">
 										From: Jun, 2022<span class="mr-1">·</span>To: Aug, 2022
@@ -191,7 +198,7 @@
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="Tribanco"
-										src="/tribancologo.jpeg"
+										src={tribancoLogo}
 									/>
 									<h2 class="card-title text-2xl">
 										From: Aug, 2021<span class="mr-1">·</span>To: May, 2022
@@ -224,7 +231,7 @@
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="iti"
-										src="/itiitaulogo.jpeg"
+										src={itiLogo}
 									/>
 									<h2 class="card-title text-2xl">
 										From: Feb, 2020<span class="mr-1">·</span>To: Jul, 2021
@@ -262,7 +269,7 @@
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="Accenture"
-										src="/accenturelogo.jpeg"
+										src={accentureLogo}
 									/>
 									<h2 class="card-title text-2xl">
 										From: Jun, 2019<span class="mr-1">·</span>To: Feb, 2020
