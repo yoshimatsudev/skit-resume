@@ -1,8 +1,7 @@
 <script lang="ts">
 	import '../app.css';
-	import Header from '$lib/components/header.svelte'
+	import Header from '$lib/components/header.svelte';
 </script>
 
-	<Header/>
-
-	<slot />
+<Header />
+<slot />

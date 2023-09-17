@@ -80,12 +80,12 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<title
+								<h2
 									itemprop="name headline"
 									class="text-primary card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
 								>
-									Hello world!
-							</title>
+								&#x1F44B; Hello world! 
+								</h2>
 								<h2 class="card-title text-2xl">
 									I'm a Frontend Specialist based in &#127463;&#127479; Brazil with about 6 years of
 									experience building fast, responsive and scalable web applications.
