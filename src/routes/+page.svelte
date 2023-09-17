@@ -118,14 +118,18 @@
 								>
 									Previous experiences:
 								</h2>
-								<div class="flex flex-row gap-2 tooltip" data-tip="BEES">
+								<div class="flex flex-row gap-2">
 									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16 tooltip-primary"
+										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="BEES"
 										src={beesLogo}
 									/>
-									<h2 class="card-title text-2xl">
-										From: Aug, 2022<span class="mr-1">·</span>Up to today
+									<h2 class="card-title md:text-2xl">
+										<a
+											href="https://mybeesapp.com/"
+											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
+											>BEES</a
+										>From: Aug, 2022<span class="mr-1">·</span>Up to today
 									</h2>
 								</div>
 								<ul class="ml-8 list-disc card-title block">
@@ -157,14 +161,18 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2 tooltip" data-tip="BRQ">
+								<div class="flex flex-row gap-2">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="BRQ"
 										src={brqLogo}
 									/>
-									<h2 class="card-title text-2xl">
-										From: Jun, 2022<span class="mr-1">·</span>To: Aug, 2022
+									<h2 class="card-title md:text-2xl">
+										<a
+											href="https://www.brq.com/en/"
+											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
+											>BRQ</a
+										>From: Jun, 2022<span class="mr-1">·</span>To: Aug, 2022
 									</h2>
 								</div>
 								<ul class="ml-8 list-disc card-title block">
@@ -192,14 +200,18 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2 tooltip" data-tip="Tribanco">
+								<div class="flex flex-row gap-2">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="Tribanco"
 										src={tribancoLogo}
 									/>
-									<h2 class="card-title text-2xl">
-										From: Aug, 2021<span class="mr-1">·</span>To: May, 2022
+									<h2 class="card-title md:text-2xl">
+										<a
+											href="https://www.tribanco.com.br/empresa/"
+											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
+											>Tribanco</a
+										>From: Aug, 2021<span class="mr-1">·</span>To: May, 2022
 									</h2>
 								</div>
 								<ul class="ml-8 list-disc card-title block">
@@ -222,14 +234,18 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2 tooltip" data-tip="iti">
+								<div class="flex flex-row gap-2">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="iti"
 										src={itiLogo}
 									/>
-									<h2 class="card-title text-2xl">
-										From: Feb, 2020<span class="mr-1">·</span>To: Jul, 2021
+									<h2 class="card-title md:text-2xl">
+										<a
+											href="https://www.iti.itau"
+											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
+											>iti</a
+										>From: Feb, 2020<span class="mr-1">·</span>To: Jul, 2021
 									</h2>
 								</div>
 								<ul class="ml-8 list-disc card-title block">
@@ -262,14 +278,18 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2 tooltip" data-tip="Accenture">
+								<div class="flex flex-row gap-2">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="Accenture"
 										src={accentureLogo}
 									/>
-									<h2 class="card-title text-2xl">
-										From: Jun, 2019<span class="mr-1">·</span>To: Feb, 2020
+									<h2 class="card-title md:text-2xl">
+										<a
+											href="https://www.iti.itau"
+											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
+											>Accenture</a
+										>From: Jun, 2019<span class="mr-1">·</span>To: Feb, 2020
 									</h2>
 								</div>
 								<ul class="ml-8 list-disc card-title text-xl block">
@@ -317,16 +337,11 @@
 							<a
 								rel="noopener noreferrer external"
 								target="_blank"
-								class="tooltip tooltip-secondary hover:text-secondary"
 								href="https://github.com/importantimport/urara">Urara</a
 							>
 							and powered by
-							<a
-								rel="noopener noreferrer external"
-								target="_blank"
-								class="tooltip tooltip-secondary hover:text-secondary"
-								data-tip="SvelteKit"
-								href="https://kit.svelte.dev/">SvelteKit</a
+							<a rel="noopener noreferrer external" target="_blank" href="https://kit.svelte.dev/"
+								>SvelteKit</a
 							>
 						</p>
 					</div>
