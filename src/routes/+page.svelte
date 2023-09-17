@@ -312,7 +312,7 @@
 				<div class="divider mt-0 mb-8 hidden lg:flex" />
 				<footer
 					id="footer"
-					class="footer footer-center bg-base-300 text-base-content shadow-inner p-8 md:rounded-box"
+					class="footer footer-center text-base-content shadow-inner p-8 md:rounded-box"
 				>
 					<div class="prose">
 						<p>
