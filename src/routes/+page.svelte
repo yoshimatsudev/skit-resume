@@ -1,11 +1,11 @@
 <script lang="ts">
 	import '../app.css';
-	import spiderLogo from '$lib/images/spider.jpeg'
-	import accentureLogo from '$lib/images/accenturelogo.jpeg'
-	import beesLogo from '$lib/images/beeslogo.jpeg'
-	import brqLogo from '$lib/images/brqlogo.jpeg'
-	import tribancoLogo from '$lib/images/tribancologo.jpeg'
-	import itiLogo from '$lib/images/itiitaulogo.jpeg'
+	import spiderLogo from '$lib/images/spider.jpeg';
+	import accentureLogo from '$lib/images/accenturelogo.jpeg';
+	import beesLogo from '$lib/images/beeslogo.jpeg';
+	import brqLogo from '$lib/images/brqlogo.jpeg';
+	import tribancoLogo from '$lib/images/tribancologo.jpeg';
+	import itiLogo from '$lib/images/itiitaulogo.jpeg';
 
 	const myTechnologies = [
 		'Javascript',
@@ -51,7 +51,7 @@
 					<div
 						class="absolute z-20 rounded-full w-8 h-8 md:w-10 md:h-10 bottom-0 right-0 bg-base-100 shadow-xl text-lg md:text-xl text-center py-0.5 md:py-1.5"
 					>
-						&#x270C;
+						&#x1F47E;
 					</div>
 				</figure>
 				<div class="text-center flex flex-col gap-2">
@@ -91,7 +91,7 @@
 									itemprop="name headline"
 									class="text-primary card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
 								>
-								&#x1F44B; Hello world! 
+									&#x1F44B; Hello world!
 								</h2>
 								<h2 class="card-title text-2xl">
 									I'm a Frontend Specialist based in &#127463;&#127479; Brazil with about 6 years of
@@ -118,9 +118,9 @@
 								>
 									Previous experiences:
 								</h2>
-								<div class="flex flex-row gap-2">
+								<div class="flex flex-row gap-2 tooltip" data-tip="BEES">
 									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
+										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16 tooltip-primary"
 										alt="BEES"
 										src={beesLogo}
 									/>
@@ -128,22 +128,19 @@
 										From: Aug, 2022<span class="mr-1">·</span>Up to today
 									</h2>
 								</div>
-
-								<h2 class="card-title">
-									<span class="radio" />Responsible for expanding existing web products and features
-									to new countries/partners
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Responsible for leveraging technical knowledge using some
-									methods like Mentoring, Onboarding Programs, Documentation, Knowledge Repositories
-									and Pair Programming
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Direct technical/career leader of expansion web developers
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Leading automation initiatives
-								</h2>
+								<ul class="ml-8 list-disc card-title block">
+									<li>
+										Responsible for expanding existing web products and features to new
+										countries/partners
+									</li>
+									<li>
+										Responsible for leveraging technical knowledge using some methods like
+										Mentoring, Onboarding Programs, Documentation, Knowledge Repositories and Pair
+										Programming
+									</li>
+									<li>Direct technical/career leader of expansion web developers</li>
+									<li>Leading automation initiatives</li>
+								</ul>
 							</div>
 						</div>
 					</article>
@@ -160,7 +157,7 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
+								<div class="flex flex-row gap-2 tooltip" data-tip="BRQ">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="BRQ"
@@ -170,14 +167,15 @@
 										From: Jun, 2022<span class="mr-1">·</span>To: Aug, 2022
 									</h2>
 								</div>
-								<h2 class="card-title">
-									<span class="radio" />Developed a environment provider abstraction for ( Next )
-									Bradesco Bank with Next, Node and Typescript
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Introduced and implemented new testing practices to the
-									platform developers
-								</h2>
+								<ul class="ml-8 list-disc card-title block">
+									<li>
+										Developed a environment provider abstraction for ( Next ) Bradesco Bank with
+										Next, Node and Typescript
+									</li>
+									<li>
+										Introduced and implemented new testing practices to the platform developers
+									</li>
+								</ul>
 							</div>
 						</div>
 					</article>
@@ -194,7 +192,7 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
+								<div class="flex flex-row gap-2 tooltip" data-tip="Tribanco">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="Tribanco"
@@ -204,13 +202,10 @@
 										From: Aug, 2021<span class="mr-1">·</span>To: May, 2022
 									</h2>
 								</div>
-								<h2 class="card-title">
-									<span class="radio" />Responsible for maintaining legacy hybrid applications in
-									Javascript
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Worked on the new integrations with Open Finance solution
-								</h2>
+								<ul class="ml-8 list-disc card-title block">
+									<li>Responsible for maintaining legacy hybrid applications in Javascript</li>
+									<li>Worked on the new integrations with Open Finance solution</li>
+								</ul>
 							</div>
 						</div>
 					</article>
@@ -227,7 +222,7 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
+								<div class="flex flex-row gap-2 tooltip" data-tip="iti">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="iti"
@@ -237,18 +232,20 @@
 										From: Feb, 2020<span class="mr-1">·</span>To: Jul, 2021
 									</h2>
 								</div>
-								<h2 class="card-title">
-									<span class="radio" />Worked on developing a new micro-frontend platform for
-									backoffice web applications
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Wrote unit and automated E2E tests for existing legacy
-									backoffice web applications
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Designed CI/CD solution along with Architects to replace old
-									legacy solutions to our new cloud-based infra
-								</h2>
+								<ul class="ml-8 list-disc card-title block">
+									<li>
+										Worked on developing a new micro-frontend platform for backoffice web
+										applications
+									</li>
+									<li>
+										Wrote unit and automated E2E tests for existing legacy backoffice web
+										applications
+									</li>
+									<li>
+										Designed CI/CD solution along with Architects to replace old legacy solutions to
+										our new cloud-based infra
+									</li>
+								</ul>
 							</div>
 						</div>
 					</article>
@@ -265,7 +262,7 @@
 						<div class="card-body gap-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
+								<div class="flex flex-row gap-2 tooltip" data-tip="Accenture">
 									<img
 										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
 										alt="Accenture"
@@ -275,17 +272,17 @@
 										From: Jun, 2019<span class="mr-1">·</span>To: Feb, 2020
 									</h2>
 								</div>
-								<h2 class="card-title">
-									<span class="radio" />Developed the MVP of a new mobile digital loan hybrid app
-									with Vue and Apache Cordova
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Migrated database and functions from OracleSQL to MySQL
-								</h2>
-								<h2 class="card-title">
-									<span class="radio" />Worked on adapting Santander banking microsservices to a new
-									Cloud Infrastructure
-								</h2>
+								<ul class="ml-8 list-disc card-title text-xl block">
+									<li>
+										Developed the MVP of a new mobile digital loan hybrid app with Vue and Apache
+										Cordova
+									</li>
+									<li>Migrated database and functions from OracleSQL to MySQL</li>
+									<li>
+										Worked on adapting Santander banking microsservices to a new Cloud
+										Infrastructure
+									</li>
+								</ul>
 							</div>
 						</div>
 					</article>
