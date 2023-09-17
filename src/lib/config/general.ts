@@ -2,16 +2,12 @@ import type { ThemeConfig } from '$lib/types/general';
 
 export const theme: ThemeConfig = [
 	{
-		name: 'dracula',
-		text: '🧛 Dracula'
-	},
-	{
-		name: 'valentine',
-		text: '🌸 Valentine'
-	},
-	{
 		name: 'synthwave',
 		text: '🌃 Synthwave'
+	},
+	{
+		name: 'dracula',
+		text: '🧛 Dracula'
 	},
 	{
 		name: 'night',
@@ -22,9 +18,12 @@ export const theme: ThemeConfig = [
 		text: '🏡 Garden'
 	},
 	{
+		name: 'valentine',
+		text: '🌸 Valentine'
+	},
+	{
 		name: 'retro',
 		text: '🌇 Retro'
 	},
-	
 ];
 
