@@ -94,7 +94,7 @@
 									&#x1F44B; Hello world!
 								</h2>
 								<h2 class="card-title text-2xl">
-									I'm a Frontend Specialist based in &#127463;&#127479; Brazil with about 6 years of
+									I'm a Software Developer based in &#127463;&#127479; Brazil with about 6 years of
 									experience building fast, responsive and scalable web applications.
 								</h2>
 							</div>
