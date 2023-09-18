@@ -8,7 +8,6 @@ export default {
 	daisyui: {
 		themes: [
 			'synthwave',
-			'retro',
 			'valentine',
 			'garden',
 			'dracula',

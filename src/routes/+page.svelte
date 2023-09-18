@@ -1,11 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import spiderLogo from '$lib/images/spider.jpeg';
-	import accentureLogo from '$lib/images/accenturelogo.jpeg';
-	import beesLogo from '$lib/images/beeslogo.jpeg';
-	import brqLogo from '$lib/images/brqlogo.jpeg';
-	import tribancoLogo from '$lib/images/tribancologo.jpeg';
-	import itiLogo from '$lib/images/itiitaulogo.jpeg';
+	import JobCards from '$lib/components/job_cards.svelte';
 
 	const myTechnologies = [
 		'Javascript',
@@ -39,7 +35,7 @@
 			style=""
 		>
 			<div
-				class="h-card flex flex-col gap-4 sticky top-24 card card-body p-4 items-right xl:border-2 xl:py-8 border-base-content/10 xl:ml-auto xl:mr-8 xl:max-w-xs"
+				class="h-card flex flex-col gap-4 sticky top-24 card card-body print:p-0 p-4 items-right xl:border-2 xl:py-8 border-base-content/10 xl:ml-auto xl:mr-8 xl:max-w-xs"
 			>
 				<!-- <a href="https://urara-demo.netlify.app" class="hidden u-url u-uid">Daniel Yoshimatsu</a> -->
 				<figure class="relative mx-auto group">
@@ -56,7 +52,7 @@
 				</figure>
 				<div class="text-center flex flex-col gap-2">
 					<h2 class="text-2xl font-bold mt-0 mb-2 p-name">Daniel Yoshimatsu</h2>
-					<p class="opacity-75 p-note">Software Engineer / Frontend Developer</p>
+					<p class="p-note text-accent">Software Engineer / Frontend Developer</p>
 				</div>
 			</div>
 		</div>
@@ -65,7 +61,7 @@
 			style=""
 		>
 			<div
-				class="print:grid-cols-6 print:grid print:max-h-32 print:card flex xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8"
+				class="print:hidden md:flex hidden xl:flex-wrap gap-2 overflow-x-auto xl:overflow-x-hidden overflow-y-hidden max-h-24 my-auto xl:max-h-fit max-w-fit xl:max-w-full pl-8 md:px-0 xl:pl-8 xl:pt-8"
 			>
 				{#each myTechnologies as technology}
 					<button
@@ -84,7 +80,7 @@
 					<article
 						class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 group"
 					>
-						<div class="card-body gap-0">
+						<div class="card-body gap-0 print:p-0">
 							<div class="flex flex-col gap-2">
 								<div class="flex font-semibold gap-1.5" />
 								<h2
@@ -93,7 +89,7 @@
 								>
 									&#x1F44B; Hello world!
 								</h2>
-								<h2 class="card-title text-2xl">
+								<h2 class="card-title md:text-2xl">
 									I'm a Software Developer based in &#127463;&#127479; Brazil with about 6 years of
 									experience building fast, responsive and scalable web applications.
 								</h2>
@@ -103,211 +99,7 @@
 				</div>
 			</main>
 			<div class="mt-5" />
-			<main class="flex flex-col relative bg-base-100 md:bg-transparent md:gap-8 z-10">
-				<div
-					class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"
-				>
-					<article
-						class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 group"
-					>
-						<div class="card-body gap-0">
-							<div class="flex flex-col gap-2">
-								<div class="flex font-semibold gap-1.5" />
-								<h2
-									class="mb-10 text-primary card-title text-3xl mr-auto bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
-								>
-									Previous experiences:
-								</h2>
-								<div class="flex flex-row gap-2">
-									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
-										alt="BEES"
-										src={beesLogo}
-									/>
-									<h2 class="card-title md:text-2xl">
-										<a
-											href="https://mybeesapp.com/"
-											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
-											>BEES</a
-										>From: Aug, 2022<span class="mr-1">·</span>Up to today
-									</h2>
-								</div>
-								<ul class="ml-8 list-disc card-title block">
-									<li>
-										Responsible for expanding existing web products and features to new
-										countries/partners
-									</li>
-									<li>
-										Responsible for leveraging technical knowledge using some methods like
-										Mentoring, Onboarding Programs, Documentation, Knowledge Repositories and Pair
-										Programming
-									</li>
-									<li>Direct technical/career leader of expansion web developers</li>
-									<li>Leading automation initiatives</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-				</div>
-			</main>
-			<div class="mt-5" />
-			<main class="flex flex-col relative bg-base-100 md:bg-transparent md:gap-8 z-10">
-				<div
-					class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"
-				>
-					<article
-						class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 group"
-					>
-						<div class="card-body gap-0">
-							<div class="flex flex-col gap-2">
-								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
-									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
-										alt="BRQ"
-										src={brqLogo}
-									/>
-									<h2 class="card-title md:text-2xl">
-										<a
-											href="https://www.brq.com/en/"
-											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
-											>BRQ</a
-										>From: Jun, 2022<span class="mr-1">·</span>To: Aug, 2022
-									</h2>
-								</div>
-								<ul class="ml-8 list-disc card-title block">
-									<li>
-										Developed a environment provider abstraction for ( Next ) Bradesco Bank with
-										Next, Node and Typescript
-									</li>
-									<li>
-										Introduced and implemented new testing practices to the platform developers
-									</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-				</div>
-			</main>
-			<div class="mt-5" />
-			<main class="flex flex-col relative bg-base-100 md:bg-transparent md:gap-8 z-10">
-				<div
-					class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"
-				>
-					<article
-						class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 group"
-					>
-						<div class="card-body gap-0">
-							<div class="flex flex-col gap-2">
-								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
-									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
-										alt="Tribanco"
-										src={tribancoLogo}
-									/>
-									<h2 class="card-title md:text-2xl">
-										<a
-											href="https://www.tribanco.com.br/empresa/"
-											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
-											>Tribanco</a
-										>From: Aug, 2021<span class="mr-1">·</span>To: May, 2022
-									</h2>
-								</div>
-								<ul class="ml-8 list-disc card-title block">
-									<li>Responsible for maintaining legacy hybrid applications in Javascript</li>
-									<li>Worked on the new integrations with Open Finance solution</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-				</div>
-			</main>
-			<div class="mt-5" />
-			<main class="flex flex-col relative bg-base-100 md:bg-transparent md:gap-8 z-10">
-				<div
-					class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"
-				>
-					<article
-						class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 group"
-					>
-						<div class="card-body gap-0">
-							<div class="flex flex-col gap-2">
-								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
-									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
-										alt="iti"
-										src={itiLogo}
-									/>
-									<h2 class="card-title md:text-2xl">
-										<a
-											href="https://www.iti.itau"
-											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
-											>iti</a
-										>From: Feb, 2020<span class="mr-1">·</span>To: Jul, 2021
-									</h2>
-								</div>
-								<ul class="ml-8 list-disc card-title block">
-									<li>
-										Worked on developing a new micro-frontend platform for backoffice web
-										applications
-									</li>
-									<li>
-										Wrote unit and automated E2E tests for existing legacy backoffice web
-										applications
-									</li>
-									<li>
-										Designed CI/CD solution along with Architects to replace old legacy solutions to
-										our new cloud-based infra
-									</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-				</div>
-			</main>
-			<div class="mt-5" />
-			<main class="flex flex-col relative bg-base-100 md:bg-transparent md:gap-8 z-10">
-				<div
-					class="rounded-box transition-all duration-500 ease-in-out hover:z-30 hover:shadow-lg md:shadow-xl md:hover:shadow-2xl md:hover:-translate-y-0.5"
-				>
-					<article
-						class="h-entry card bg-base-100 rounded-none md:rounded-box md:shadow-xl overflow-hidden z-10 group"
-					>
-						<div class="card-body gap-0">
-							<div class="flex flex-col gap-2">
-								<div class="flex font-semibold gap-1.5" />
-								<div class="flex flex-row gap-2">
-									<img
-										class="u-photo rounded shadow-xl hover:shadow-2xl transition-shadow z-10 w-10 h-10 md:w-16 md:h-16"
-										alt="Accenture"
-										src={accentureLogo}
-									/>
-									<h2 class="card-title md:text-2xl">
-										<a
-											href="https://www.iti.itau"
-											class="link bg-[length:100%_0%] bg-[position:0_88%] underline decoration-4 decoration-transparent group-hover:decoration-primary hover:bg-[length:100%_100%] hover:text-primary-content bg-gradient-to-t from-primary to-primary bg-no-repeat transition-all ease-in-out duration-300"
-											>Accenture</a
-										>From: Jun, 2019<span class="mr-1">·</span>To: Feb, 2020
-									</h2>
-								</div>
-								<ul class="ml-8 list-disc card-title text-xl block">
-									<li>
-										Developed the MVP of a new mobile digital loan hybrid app with Vue and Apache
-										Cordova
-									</li>
-									<li>Migrated database and functions from OracleSQL to MySQL</li>
-									<li>
-										Worked on adapting Santander banking microsservices to a new Cloud
-										Infrastructure
-									</li>
-								</ul>
-							</div>
-						</div>
-					</article>
-				</div>
-			</main>
+			<JobCards />
 			<div class="bottom-0 md:static md:mt-8" style="">
 				<div class="divider mt-0 mb-8 hidden lg:flex" />
 				<footer

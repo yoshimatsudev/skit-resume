@@ -20,10 +20,6 @@ export const theme: ThemeConfig = [
 	{
 		name: 'valentine',
 		text: '🌸 Valentine'
-	},
-	{
-		name: 'retro',
-		text: '🌇 Retro'
-	},
+	}
 ];
 
