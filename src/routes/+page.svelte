@@ -9,6 +9,8 @@
 		'React',
 		'Next',
 		'SvelteKit',
+		'Angular (old)',
+		'Vue',
 		'Azure Devops',
 		'AWS',
 		'CI/CD',
