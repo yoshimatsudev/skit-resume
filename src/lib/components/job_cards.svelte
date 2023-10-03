@@ -7,11 +7,11 @@
 	import translations from '$lib/i18n/general';
 
 	const iconMap = {
-		iti: itiLogo,
-		Accenture: accentureLogo,
-		BEES: beesLogo,
-		Tribanco: tribancoLogo,
-		BRQ: brqLogo
+		'iti': itiLogo,
+		'Accenture': accentureLogo,
+		'BEES': beesLogo,
+		'Tribanco': tribancoLogo,
+		'BRQ': brqLogo
 	};
 
 	const my_experiences = translations.previous_experiences;
